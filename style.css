@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background for contrast */
+}
+
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #ccc; /* Optional: border to see the edges of the flag */
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
